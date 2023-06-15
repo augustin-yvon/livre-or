@@ -1,0 +1,78 @@
+@import url(./main.css);
+
+.gold{
+    color: #FFBD00;
+}
+.gray{
+    color: #353535;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container h1{
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 4vh;
+}
+
+.container {
+    width: 75vw;
+}
+
+.container h2{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.coment-container{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 2vh;
+}
+
+.coment{
+    width: 100%;
+}
+
+.add-coment{
+    margin-bottom: 4vh;
+}
+
+.add-coment h2{
+    padding-bottom: 5px;
+}
+
+.add-coment form{
+    display: flex;
+}
+
+.add-coment input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 20px 20px 0;
+}
+
+.add-coment input[type="submit"]:hover {
+    background-color: #2b912e;
+}
+
+.add-coment textarea{
+    width: 100%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 20px 0 0 20px;
+    padding: 5px 15px;
+}
