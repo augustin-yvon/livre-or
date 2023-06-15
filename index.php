@@ -37,7 +37,7 @@ require_once './html-element/header.php';
                     <div onclick="location.href='register.php';" class="button">Inscription</div>
                     <div onclick="location.href='login.php';" class="button">Connexion</div>
                 </div>
-                <p>Voir le <a href="https://github.com/augustin-yvon/module-connexion" target="_blank" title="repository github">code</a></p>
+                <p>Voir le <a href="https://github.com/augustin-yvon/livre-or" target="_blank" title="repository github">code</a></p>
             </div>
         </section>
 
