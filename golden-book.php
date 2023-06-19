@@ -6,9 +6,8 @@ require_once './html-element/header.php';
 
 if (isset($_SESSION['user'])) {
     $user = $_SESSION['user'];
+    $userId = $user->getId();
 }
-
-$userId = $user->getId();
 
 $db = new Database();
 // Requête pour récupérer les commentaires du plus récent au plus ancien
